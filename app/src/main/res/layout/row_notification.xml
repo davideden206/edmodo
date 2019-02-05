@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageP"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/NameUser"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:textAlignment="textEnd"
+        />
+
+    <TextView
+        android:id="@+id/hownot"
+        android:layout_width="116dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/whtenot"
+        android:layout_width="353dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

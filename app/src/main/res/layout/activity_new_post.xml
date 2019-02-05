@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.Fclasses.NewPostActivity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFAFA"
+        android:layout_weight="3.9"
+
+        >
+    <Spinner
+        android:id="@+id/SpinnerUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="right"
+        >
+
+    </Spinner>
+        <Spinner
+            android:id="@+id/SpinnerClasses"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="right"
+            >
+
+        </Spinner>
+<EditText
+    android:id="@+id/EDPost"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/Share_a_photo_video_poll_or_idea"
+    />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom|right"
+        android:background="#FFFAFA"
+
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sketchpad_gray"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_insert_chart_black_18dp"
+            android:tint="#D3D3D3"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_photo_camera_black_18dp"
+            android:tint="#D3D3D3"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/baseline_attach_file_black_18dp"
+            android:tint="#D3D3D3" />
+    </LinearLayout>
+
+
+</LinearLayout>

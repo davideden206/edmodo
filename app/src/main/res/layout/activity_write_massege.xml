@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.Fmessages.WriteMassegeActivity"
+android:id="@+id/rrr"
+    >
+    <TextView
+        android:id="@+id/nameUserToWriteMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:shadowColor="@color/whiteColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+    <LinearLayout
+        android:id="@+id/lllll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/lll2"
+        android:layout_below="@+id/nameUserToWriteMessage"
+
+        >
+
+
+        <ListView
+            android:id="@+id/listMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:src="@drawable/baseline_attach_file_black_18dp" />
+
+        <EditText
+            android:id="@+id/textMessage"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:hint="@string/Type_a_message"
+
+            />
+
+        <ImageView
+            android:id="@+id/sandMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/baseline_send_black_18dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

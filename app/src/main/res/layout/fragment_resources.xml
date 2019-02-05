@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="android.course.edmodo_203898309_305186108.TeacherGroup.ResourcesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lvResources"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/addMenu"
+        android:layout_width="278dp"
+        android:layout_height="207dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        app:menu_colorNormal="#00FFFF"
+        app:menu_fab_label=""
+        app:menu_openDirection="up"
+        app:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="90dp"
+            android:src="@drawable/baseline_photo_camera_black_18dp"
+            app:fab_label="@string/Use_Camera"
+            app:fab_colorNormal="#00FFFF"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/icongallery"
+            app:fab_colorNormal="#00FFFF"
+            app:fab_label="@string/Choose_From_Gallery"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/baseline_link_black_18dp"
+            app:fab_colorNormal="#00FFFF"
+            app:fab_label="@string/add_Link"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+</FrameLayout>

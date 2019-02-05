@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.course.edmodo_203898309_305186108">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".App_open_screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/Welcome_to_Edmodo"
+            android:theme="@style/Theme2" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/Classes" />
+        <activity
+            android:name=".Fmessages.newMessageActivity"
+            android:parentActivityName=".Fmessages.newMessageActivity" />
+        <activity
+            android:name=".Fmessages.WriteMassegeActivity"
+            android:parentActivityName=".Fmessages.newMessageActivity" />
+        <activity android:name=".More.UserProfileActivity" />
+        <activity android:name=".gruops.gropesActiviti" />
+        <activity
+            android:name=".gruops.ClassesSetingActivity"
+            android:parentActivityName=".gruops.gropesActiviti" />
+        <activity android:name=".gruops.SmallGroupActivity" />
+        <activity android:name=".HomeTeacherActivity" />
+        <activity android:name=".TeacherGroup.TeachergropesActiviti" />
+        <activity android:name=".ArchivedActivity" />
+        <activity android:name=".AlertDialogLinkActivity" />
+        <activity android:name=".Fclasses.AddClassActivity" />
+        <activity android:name=".Fclasses.NewPostActivity"></activity>
+    </application>
+
+</manifest>

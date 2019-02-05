@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.More.MoreTeacherFragment"
+    android:weightSum="4"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4.5"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imagTecher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile_gray"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/nameTecher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Eden_david"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/typrTecher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/talmid"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/mor_my_profile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/whiteColor"
+            android:drawableLeft="@drawable/ic_profile_grayy"
+
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:text="@string/My_profil"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/mmy_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/whiteColor"
+            android:drawableLeft="@drawable/ic_my_network_gray"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:text="@string/My_Group"
+
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@color/whiteColor"
+            android:drawableLeft="@drawable/app_tour_assignments"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:text="@string/what_s_due"
+            android:textAllCaps="false"
+            android:drawableTintMode="screen"
+            android:drawableTint="#D3D3D3"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/ic_library_gray"
+            android:background="@color/whiteColor"
+            android:layout_marginBottom="2dp"
+            android:gravity="left|center"
+            android:drawablePadding="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@color/whiteColor"
+            android:drawableLeft="@drawable/ic_help_gray"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:text="@string/Help"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@color/whiteColor"
+            android:drawableLeft="@drawable/ic_power_gray"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:text="@string/Sign_out"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/use_camera"
+        android:title="use camera" />
+    <item
+        android:id="@+id/ChooseFromeGalery"
+        android:title="Choose Frome Galery" />
+    <item
+        android:id="@+id/Addlink"
+        android:title="Add Link" />
+    <item
+        android:id="@+id/AddFile"
+        android:title="Add File" />
+    <item
+        android:id="@+id/CreateFolder"
+        android:title="Create Folder" />
+</menu>

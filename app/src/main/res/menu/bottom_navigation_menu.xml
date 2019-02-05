@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item
+        android:id="@+id/classesid"
+        android:icon="@drawable/ic_classes_active"
+        android:title="@string/classes"
+        />
+    <item
+        android:id="@+id/whats_Dueid"
+        android:icon="@drawable/baseline_photo_camera_black_18dp"
+        android:title="@string/what_s_due" />
+    <item
+        android:id="@+id/Messages"
+        android:icon="@drawable/ic_messages_tab_selected"
+        android:title="@string/messages" />
+    <item
+        android:id="@+id/Notification"
+        android:icon="@drawable/baseline_notifications_black_24dp"
+        android:title="@string/notification"
+        android:visible="true" />
+    <item
+        android:id="@+id/More"
+        android:icon="@drawable/ic_more_active"
+        android:title="@string/more" />
+</menu>

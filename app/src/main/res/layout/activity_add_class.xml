@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.Fclasses.AddClassActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etnameclassadd"
+        android:hint="@string/Name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Subject Area      >"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Grade"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="18dp"/>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ADVANCED"
+        android:background="#ddd"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="18dp"/>
+
+    <Switch
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:text="Default new members to read only" />
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Moderate all posts and replies" />
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Hide all posts from Parents" />
+    <Button
+        android:id="@+id/createclass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimary"
+        android:text="Create Class"
+        android:textSize="20dp"
+        android:textColor="@color/whiteColor"/>
+
+
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+

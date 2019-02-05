@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.TeacherGroup.TeachergropesActiviti"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        app:labelVisibilityMode="labeled"
+        android:visibility="visible"
+        app:itemTextColor="@color/whiteColor"
+        android:background="@color/colorPrimary"
+        app:menu="@menu/teachergroup_menu" >
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/freg_groups"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

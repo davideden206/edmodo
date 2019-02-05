@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="android.course.edmodo_203898309_305186108.Fclasses.LatestActivityFragment"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:id="@+id/fffff"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    android:layout_weight="4"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="8"
+        android:foregroundTint="@color/whiteColor" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/btnPlus"
+        android:layout_width="278dp"
+        android:layout_height="207dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:visibility="visible"
+        app:menu_colorNormal="#00FFFF"
+        app:menu_fab_label=""
+        app:menu_openDirection="up"
+        android:layout_weight="1"
+        app:menu_showShadow="true"></com.github.clans.fab.FloatingActionMenu>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.Fmessages.emptyMessagesFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/image_empty_masg"
+        android:layout_width="111dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chat_rooms_empty_state_bg"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_for_empty_massage"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <Button
+        android:id="@+id/MasGetStarted"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curner_buttone_blue"
+        android:text="@string/get_started"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+
+        />
+</LinearLayout>
+
+
+</FrameLayout>

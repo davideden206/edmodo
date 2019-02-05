@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="android.course.edmodo_203898309_305186108.gruops.groupFeedFragment"
+    android:orientation="vertical"
+    android:weightSum="4"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:id="@+id/LLToPost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="3.5"
+
+    >
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:src="@drawable/ic_profile_gray"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_a_resource_photo_or_article"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_photo_camera_black_18dp"
+        android:tint="#A9A9A9"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D3D3D3"
+        android:layout_weight="0.5"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+
+                >
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recVPostInclass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:foregroundTint="@color/whiteColor"
+
+                    />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+
+            >
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/btnPlus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:visibility="visible"
+                app:menu_colorNormal="#00FFFF"
+                app:menu_fab_label=""
+                app:menu_openDirection="up"
+
+                app:menu_showShadow="true">
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

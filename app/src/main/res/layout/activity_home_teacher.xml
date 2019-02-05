@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.course.edmodo_203898309_305186108.HomeTeacherActivity"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/main_frameTeacher"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        >
+
+
+
+        <!-- Main content -->
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/main_navTecher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whiteColor"
+            app:labelVisibilityMode="labeled"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_navigation_menu_teacher">
+        </android.support.design.widget.BottomNavigationView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
